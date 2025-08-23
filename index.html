@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mi Sitio web</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="logo">Mi<span class="accent">Sitio</span></div>
+        <div class="tabs" role="tablist">
+          <a class="tab" href="#inicio" data-view="inicio" role="tab">Inicio</a>
+          <a class="tab" href="#galeria" data-view="galeria" role="tab"
+            >Galería</a
+          >
+          <a class="tab" href="#blog" data-view="blog" role="tab">Blog</a>
+          <a class="tab" href="#nosotros" data-view="nosotros" role="tab"
+            >Nosotros</a
+          >
+          <a class="tab" href="#servicios" data-view="servicios" role="tab"
+            >Servicios</a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ====== INICIO ====== -->
+      <section id="inicio" class="vista active">
+        <div class="hero">
+          <div class="card">
+            <h1 style="margin-top: 0">Bienvenido 👋</h1>
+            <p class="muted">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Molestias tempore voluptatibus commodi laudantium iusto obcaecati
+              ipsum. Ratione sed Veniam, expedita temporibus?
+              <strong>Lorem, ipsum.</strong> Lorem ipsum dolor sit, amet
+              consectetur adipisicing elit. Autem, culpa?.
+            </p>
+            <div class="ph" aria-label="Espacio para imagen de portada">
+              Espacio para imagen de portada (16:9)
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet.<code>.ph</code> Lorem ipsum dolor sit
+              amet consectetur adipisicing elit.
+            </p>
+            <a class="btn" href="#servicios">Ver servicios</a>
+          </div>
+          <div class="grid grid-2">
+            <div class="card">
+              <div class="ph square" aria-label="Imagen cuadrada">
+                Imagen 1:1
+              </div>
+              <h3>Bloque destacado</h3>
+              <p class="muted">
+                Texto demostrativo para tu producto o proyecto.
+              </p>
+            </div>
+            <div class="card">
+              <div class="ph tall" aria-label="Imagen vertical">Imagen 3:4</div>
+              <h3>Otro destacado</h3>
+              <p class="muted">
+                Mantén la coherencia visual aunque aún no tengas fotos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====== GALERIA ====== -->
+      <section id="galeria" class="vista">
+        <h2 style="margin-top: 0">Galería</h2>
+        <p class="muted">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
+          molestias necessitatibus architecto laboriosam commodi sunt
+          perspiciatis eaque aperiam itaque recusandae?
+          <code>.square</code>/<code>.tall</code>.
+        </p>
+        <div class="grid grid-3">
+          <div class="card">
+            <div class="ph" aria-label="Foto de galería">Foto 16:9</div>
+          </div>
+          <div class="card">
+            <div class="ph square" aria-label="Foto de galería">Foto 1:1</div>
+          </div>
+          <div class="card">
+            <div class="ph tall" aria-label="Foto de galería">Foto 3:4</div>
+          </div>
+          <div class="card">
+            <div class="ph" aria-label="Foto de galería">Foto 16:9</div>
+          </div>
+          <div class="card">
+            <div class="ph square" aria-label="Foto de galería">Foto 1:1</div>
+          </div>
+          <div class="card">
+            <div class="ph tall" aria-label="Foto de galería">Foto 3:4</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====== BLOG ====== -->
+      <section id="blog" class="vista">
+        <h2 style="margin-top: 0">Blog</h2>
+        <div class="grid grid-3">
+          <article class="card blog-card">
+            <div class="ph" aria-label="Imagen de entrada">
+              Imagen de la entrada
+            </div>
+            <h3>Título del post</h3>
+            <p class="muted">
+              Resumen corto del artículo para enganchar al lector.
+            </p>
+            <a class="btn" href="#">Leer más</a>
+          </article>
+          <article class="card blog-card">
+            <div class="ph" aria-label="Imagen de entrada">
+              Imagen de la entrada
+            </div>
+            <h3>Otro post del blog</h3>
+            <p class="muted">Un adelanto del contenido que vas a publicar.</p>
+            <a class="btn" href="#">Leer más</a>
+          </article>
+          <article class="card blog-card">
+            <div class="ph" aria-label="Imagen de entrada">
+              Imagen de la entrada
+            </div>
+            <h3>Post destacado</h3>
+            <p class="muted">
+              Texto de muestra para mantener el equilibrio visual.
+            </p>
+            <a class="btn" href="#">Leer más</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- ====== NOSOTROS ====== -->
+      <section id="nosotros" class="vista">
+        <h2 style="margin-top: 0">Nosotros</h2>
+        <div class="grid grid-2">
+          <div class="card">
+            <h3>Nuestra historia</h3>
+            <p class="muted">
+              Agregar la historia de tu marca, misión y valores. Este texto es
+              genérico para que lo personalices.
+            </p>
+            <div class="ph" aria-label="Foto del equipo">
+              Foto del equipo (16:9)
+            </div>
+          </div>
+          <div class="card">
+            <h3>El equipo</h3>
+            <div class="grid grid-3">
+              <div>
+                <div class="ph square" aria-label="Avatar">Avatar</div>
+                <p>
+                  <strong>Nombre</strong><br /><span class="muted">Rol</span>
+                </p>
+              </div>
+              <div>
+                <div class="ph square" aria-label="Avatar">Avatar</div>
+                <p>
+                  <strong>Nombre</strong><br /><span class="muted">Rol</span>
+                </p>
+              </div>
+              <div>
+                <div class="ph square" aria-label="Avatar">Avatar</div>
+                <p>
+                  <strong>Nombre</strong><br /><span class="muted">Rol</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====== SERVICIOS ====== -->
+      <section id="servicios" class="vista">
+        <h2 style="margin-top: 0">Servicios</h2>
+        <div class="grid grid-3">
+          <div class="card service">
+            <div class="ph square" aria-label="Ícono/Imagen del servicio">
+              Ícono / Imagen
+            </div>
+            <h3>Servicio 1</h3>
+            <p class="muted">Descripción breve del servicio que ofreces.</p>
+            <a class="btn" href="#">Solicitar</a>
+          </div>
+          <div class="card service">
+            <div class="ph square" aria-label="Ícono/Imagen del servicio">
+              Ícono / Imagen
+            </div>
+            <h3>Servicio 2</h3>
+            <p class="muted">Beneficios clave y valor para el cliente.</p>
+            <a class="btn" href="#">Solicitar</a>
+          </div>
+          <div class="card service">
+            <div class="ph square" aria-label="Ícono/Imagen del servicio">
+              Ícono / Imagen
+            </div>
+            <h3>Servicio 3</h3>
+            <p class="muted">Texto demostrativo para completar el layout.</p>
+            <a class="btn" href="#">Solicitar</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      © <span id="year"></span> MiSitio — Pie de página de ejemplo.
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
